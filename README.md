@@ -1,2 +1,5 @@
 # obsidian-i18n-daoziz
-My Obsidian plugin translations (created by obsidian-i18n)
+
+个人使用的插件汉化。主要为本人使用服务，不喜勿喷。
+
+主要使用大模型翻译+部分校对和润色。
