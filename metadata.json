@@ -1,1 +1,15 @@
-[]
+[
+    {
+        "id": "J0C2oZd-YI_UPpalP3jTka7eC1IBdBF-",
+        "plugin": "obsidian-chartsview-plugin",
+        "language": "zh-cn",
+        "version": "1.2.8",
+        "supported_versions": "1.2.8",
+        "title": "Charts View",
+        "description": "为obsidian添加本地图表视图",
+        "hash": "59a800ab59a800ab59a800ab59a800ab",
+        "created_at": "2026-04-06T15:52:25.149Z",
+        "updated_at": "2026-04-06T15:52:25.149Z",
+        "type": "plugin"
+    }
+]
