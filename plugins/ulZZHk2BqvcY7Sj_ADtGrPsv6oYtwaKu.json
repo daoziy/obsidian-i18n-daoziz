@@ -1,0 +1,162 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "global-proxy",
+        "version": "1.0.4",
+        "title": "Global Proxy",
+        "description": "全局代理",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.4",
+        "author": "daoziz"
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Change your proxy status",
+                    "target": "更改你的代理状态"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Set up your socks proxy",
+                    "target": "设置你的socks代理"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Set up your http proxy",
+                    "target": "设置你的http代理"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Set up your https proxy",
+                    "target": "设置你的https代理"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "For proxy specified plugins",
+                    "target": "为指定的代理插件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Proxy blacklist",
+                    "target": "代理黑名单"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable proxy",
+                    "target": "启用代理"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Socks Proxy",
+                    "target": "Socks 代理"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Http Proxy",
+                    "target": "Http 代理"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Https Proxy",
+                    "target": "Https 代理"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Plugin Tokens",
+                    "target": "插件 Tokens"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Blacklist",
+                    "target": "黑名单"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "[URL_SCHEME://] HOSTNAME_PATTERN [:<port>]\n. HOSTNAME_SUFFIX_PATTERN [:PORT]\n[SCHEME://] IP_LITERAL [:PORT]\nIP_LITERAL / PREFIX_LENGTH_IN_BITS\n<local>",
+                    "target": "[URL_SCHEME://] HOSTNAME_PATTERN [:<port>]\n. HOSTNAME_SUFFIX_PATTERN [:PORT]\n[SCHEME://] IP_LITERAL [:PORT]\nIP_LITERAL / PREFIX_LENGTH_IN_BITS\n<local>"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Enable proxy!",
+                    "target": "启用代理！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Disable proxy!",
+                    "target": "禁用代理！"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "Notice('Enable proxy!')",
+                    "target": "Notice('Enable proxy!')"
+                },
+                {
+                    "source": "Notice('Disable proxy!')",
+                    "target": "Notice('Disable proxy!')"
+                },
+                {
+                    "source": "setName(\"Enable proxy\")",
+                    "target": "setName(\"Enable proxy\")"
+                },
+                {
+                    "source": "setDesc(\"Change your proxy status\")",
+                    "target": "setDesc(\"Change your proxy status\")"
+                },
+                {
+                    "source": "setName(\"Socks Proxy\")",
+                    "target": "setName(\"Socks Proxy\")"
+                },
+                {
+                    "source": "setDesc(\"Set up your socks proxy\")",
+                    "target": "setDesc(\"Set up your socks proxy\")"
+                },
+                {
+                    "source": "setName(\"Http Proxy\")",
+                    "target": "setName(\"Http Proxy\")"
+                },
+                {
+                    "source": "setDesc(\"Set up your http proxy\")",
+                    "target": "setDesc(\"Set up your http proxy\")"
+                },
+                {
+                    "source": "setName(\"Https Proxy\")",
+                    "target": "setName(\"Https Proxy\")"
+                },
+                {
+                    "source": "setDesc(\"Set up your https proxy\")",
+                    "target": "setDesc(\"Set up your https proxy\")"
+                },
+                {
+                    "source": "setName(\"Plugin Tokens\")",
+                    "target": "setName(\"Plugin Tokens\")"
+                },
+                {
+                    "source": "setDesc(\"For proxy specified plugins\")",
+                    "target": "setDesc(\"For proxy specified plugins\")"
+                },
+                {
+                    "source": "setDesc(\"Proxy blacklist\")",
+                    "target": "setDesc(\"Proxy blacklist\")"
+                }
+            ]
+        }
+    }
+}
