@@ -76,5 +76,18 @@
         "created_at": "2026-04-07T12:04:03.099Z",
         "updated_at": "2026-04-07T12:04:03.099Z",
         "type": "plugin"
+    },
+    {
+        "id": "An_SzDr1R4LLpfLcxwTjx7UzG2BAVhpS",
+        "plugin": "obsidian-heading-shifter",
+        "language": "zh-cn",
+        "version": "1.10.1",
+        "supported_versions": "1.10.1",
+        "title": "Heading Shifter",
+        "description": "快速调整标题级别",
+        "hash": "39057786390577863905778639057786",
+        "created_at": "2026-04-07T12:06:28.579Z",
+        "updated_at": "2026-04-07T12:06:28.579Z",
+        "type": "plugin"
     }
 ]
