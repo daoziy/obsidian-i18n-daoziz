@@ -1,0 +1,206 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "file-explorer-note-count",
+        "version": "1.2.4",
+        "title": "File Explorer Note Count",
+        "description": "统计文件夹中的笔记数量",
+        "language": "zh-cn",
+        "supportedVersions": "1.2.4",
+        "author": "daoziz"
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "Extension list to include/exclude file during counting",
+                    "target": "扩展列表，包括/排除文件以进行计数"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "Separated by comma",
+                    "target": "逗号分隔"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "failed to get file-explorer",
+                    "target": "获取文件浏览器失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "fileExplorer missing",
+                    "target": "文件浏览器丢失"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "file-explorer not found",
+                    "target": "未找到文件浏览器"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "file-explorer not found, retrying...",
+                    "target": "未找到文件浏览器，正在重试..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "loading FileExplorerNoteCount",
+                    "target": "加载 FileExplorerNoteCount"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "unloading FileExplorerNoteCount",
+                    "target": "卸载 FileExplorerNoteCount"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Turn on this option if you want to see the number of notes even after you expand the collapsed folders",
+                    "target": "如果要查看展开折叠文件夹后的笔记数量，请启用此选项"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Turn off this option to choose file that should be counted",
+                    "target": "关闭此选项以选择要计数的文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Turn on this option to use Filter List to exclude files",
+                    "target": "开启此选项以使用过滤列表来排除文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show All Numbers",
+                    "target": "显示所有数字"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Add Root Folder",
+                    "target": "添加根文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show Only Markdown Notes",
+                    "target": "仅显示 Markdown 笔记"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Filter List",
+                    "target": "过滤列表"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable Blacklist",
+                    "target": "启用黑名单"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Leave it empty to count all types of files",
+                    "target": "留空以计数所有类型的文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "more then one file-explorer",
+                    "target": "超过一个文件浏览器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "File Explorer Note Count Settings",
+                    "target": "文件浏览器注释计数设置"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "setName('Show All Numbers')",
+                    "target": "setName('显示所有数字')"
+                },
+                {
+                    "source": "setDesc('Turn on this option if you want to see the number of notes even after you expand the collapsed folders')",
+                    "target": "setDesc('如果想在展开折叠文件夹后看到笔记的数量，请开启此选项')"
+                },
+                {
+                    "source": "setName('Add Root Folder')",
+                    "target": "setName('添加根文件夹')"
+                },
+                {
+                    "source": "setDesc('By default, there is no root folder provided by Obsidian. It is moved to drop-down menu to switch between vaults. ' +\n            'Enable this option if you want to see root folder and its count in the file explorer')",
+                    "target": "setDesc('By default, there is no root folder provided by Obsidian. It is moved to drop-down menu to switch between vaults. ' +\n            'Enable this option if you want to see root folder and its count in the file explorer')"
+                },
+                {
+                    "source": "setName('Show Only Markdown Notes')",
+                    "target": "setName('仅显示 Markdown 笔记')"
+                },
+                {
+                    "source": "setDesc('Turn off this option to choose file that should be counted')",
+                    "target": "关闭此选项可选择要计算的文件"
+                },
+                {
+                    "source": "setName('Filter List')",
+                    "target": "setName('筛选列表')"
+                },
+                {
+                    "source": "appendText('Extension list to include/exclude file during counting')",
+                    "target": "appendText('扩展列表，用于在计数时包含/排除文件')"
+                },
+                {
+                    "source": "appendText('Separated by comma')",
+                    "target": "appendText('用逗号分隔')"
+                },
+                {
+                    "source": "setPlaceholder('Leave it empty to count all types of files')",
+                    "target": "setPlaceholder('留空以计算所有类型的文件')"
+                },
+                {
+                    "source": "setName('Enable Blacklist')",
+                    "target": "setName('启用黑名单')"
+                },
+                {
+                    "source": "setDesc('Turn on this option to use Filter List to exclude files')",
+                    "target": "setDesc('开启此选项以使用过滤列表排除文件')"
+                },
+                {
+                    "source": "error('file-explorer not found')",
+                    "target": "error('未找到file-explorer')"
+                },
+                {
+                    "source": "log('loading FileExplorerNoteCount')",
+                    "target": "log('加载 FileExplorerNoteCount')"
+                },
+                {
+                    "source": "log('unloading FileExplorerNoteCount')",
+                    "target": "log('卸载 FileExplorerNoteCount')"
+                },
+                {
+                    "source": "text: 'File Explorer Note Count Settings'",
+                    "target": "text: '文件资源管理器笔记数量设置'"
+                },
+                {
+                    "source": "\"By default, there is no root folder provided by Obsidian. It is moved to drop-down menu to switch between vaults. \"",
+                    "target": "\"默认情况下，Obsidian 不提供根文件夹。它被移动到下拉菜单中以便在库之间切换。 \""
+                },
+                {
+                    "source": "\"Enable this option if you want to see root folder and its count in the file explorer\"",
+                    "target": "\"如果想要在文件资源管理器中查看根文件夹及其数量，请启用此选项\""
+                }
+            ]
+        }
+    }
+}
