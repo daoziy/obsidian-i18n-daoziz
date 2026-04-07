@@ -52,19 +52,6 @@
     "updated_at": "2026-04-07T07:51:55.811Z"
   },
   {
-    "id": "unGhgbGtdUqORkSNmVHqkl0JZEFG6eso",
-    "plugin": "cmdr",
-    "type": "plugin",
-    "language": "zh-cn",
-    "version": "1.0.0",
-    "supported_versions": "0.5.4",
-    "title": "Commander",
-    "description": "Commander Localization & Tweaks",
-    "hash": "6297985b6297985b6297985b6297985b",
-    "created_at": "2026-04-07T07:51:55.811Z",
-    "updated_at": "2026-04-07T07:51:55.811Z"
-  },
-  {
     "id": "GmjVnfKBSXPwV_zFWo3hMCgZ-AwQJnIp",
     "plugin": "dynamic-outline",
     "type": "plugin",
