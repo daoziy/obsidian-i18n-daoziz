@@ -50,5 +50,18 @@
         "created_at": "2026-04-07T08:18:44.271Z",
         "updated_at": "2026-04-07T08:18:44.271Z",
         "type": "plugin"
+    },
+    {
+        "id": "7KRifPprqeE2wy41GsQ4EaGSpKgQMx3E",
+        "plugin": "file-explorer-note-count",
+        "language": "zh-cn",
+        "version": "1.2.4",
+        "supported_versions": "1.2.4",
+        "title": "File Explorer Note Count",
+        "description": "统计文件夹中的笔记数量",
+        "hash": "5dac269e5dac269e5dac269e5dac269e",
+        "created_at": "2026-04-07T10:21:16.983Z",
+        "updated_at": "2026-04-07T10:21:16.983Z",
+        "type": "plugin"
     }
 ]
