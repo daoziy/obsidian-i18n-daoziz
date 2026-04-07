@@ -63,5 +63,18 @@
         "created_at": "2026-04-07T10:21:16.983Z",
         "updated_at": "2026-04-07T10:21:16.983Z",
         "type": "plugin"
+    },
+    {
+        "id": "ulZZHk2BqvcY7Sj_ADtGrPsv6oYtwaKu",
+        "plugin": "global-proxy",
+        "language": "zh-cn",
+        "version": "1.0.4",
+        "supported_versions": "1.0.4",
+        "title": "Global Proxy",
+        "description": "全局代理",
+        "hash": "3529db633529db633529db633529db63",
+        "created_at": "2026-04-07T12:04:03.099Z",
+        "updated_at": "2026-04-07T12:04:03.099Z",
+        "type": "plugin"
     }
 ]
