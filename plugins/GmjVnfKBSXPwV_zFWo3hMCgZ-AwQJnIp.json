@@ -4,7 +4,7 @@
         "plugin": "dynamic-outline",
         "version": "1.19.0",
         "title": "Dynamic Outline",
-        "description": "Dynamic Outline Localization & Tweaks",
+        "description": "添加动态大纲目录",
         "language": "zh-cn",
         "supportedVersions": "1.19.0",
         "author": "daoziz"
