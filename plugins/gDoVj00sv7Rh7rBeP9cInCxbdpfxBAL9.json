@@ -1,0 +1,456 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "obsidian-hover-editor",
+        "version": "0.11.27",
+        "title": "Hover Editor",
+        "description": "悬浮编辑",
+        "language": "zh-cn",
+        "supportedVersions": "0.11.27",
+        "author": "daoziz"
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Allow hover preview to trigger when hovering over any type of rendered embed such as images or block references",
+                    "target": "允许在悬停任何类型的渲染嵌入时触发预览，例如图像或块引用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Use hover editor for links to subheadings, instead of the built-in preview/editor",
+                    "target": "对于链接到子标题的悬停编辑器，请使用内置预览/编辑器而不是悬停编辑器"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Use hover editor for links to blocks, instead of the built-in preview/editor",
+                    "target": "对于链接到块的悬停编辑器，请使用内置预览/编辑器而不是悬停编辑器"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Use hover editor for footnotes, instead of the built-in preview/editor",
+                    "target": "对于脚注的悬停编辑器，请使用内置预览/编辑器而不是悬停编辑器"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Set the hover editor as the active pane when opened",
+                    "target": "打开时将悬停编辑器设置为活动面板"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "When double clicking to minimize, the window will roll down instead of rolling up",
+                    "target": "双击最小化时，窗口将向下滚动而不是向上滚动"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Quickly arrange popovers by dragging them to the edges of the screen. The left and right edges \n        will maximize the popover vertically. The top edge will maximize the popover to fill the entire \n        screen. Dragging the popovers away from the edges will restore the popver to its original size.",
+                    "target": "通过拖动它们到屏幕边缘来快速排列气泡视图。左侧和右侧边缘将垂直最大化气泡视图。顶部边缘将使气泡视图充满整个屏幕。从边缘拖出气泡视图将恢复其原始大小。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Show the view header by default when triggering a hover editor.\n         When disabled, view headers will only show if you click the view header icon to the left of the minimize button.",
+                    "target": "触发悬停编辑器时，默认显示视图标题。禁用后，只有点击最小化按钮左侧的视图标题图标时才会显示视图标题。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Click and hold an image within a hover editor to temporarily maximize the popover and image to fill the entire viewport. \n        On mouse up, the hover editor will restore to its original size.",
+                    "target": "在悬停编辑器中点击并按住图像以临时最大化气泡视图和图像使其充满整个视口。松开鼠标后，悬停编辑器将恢复到其原始大小。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enter any valid CSS unit",
+                    "target": "输入任何有效的CSS单位"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "How long to wait before showing a Hover Editor when hovering over a link",
+                    "target": "在悬停链接上显示悬停编辑器前等待多久"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "How long to wait before closing a Hover Editor once the mouse leaves",
+                    "target": "鼠标离开后关闭悬停编辑器前等待多久"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Default Mode",
+                    "target": "默认模式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Auto Pin",
+                    "target": "自动固定"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Trigger hover preview on embeds",
+                    "target": "触发嵌入的悬停预览"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Trigger hover preview on sub-heading links",
+                    "target": "在子标题链接上触发悬停预览"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Trigger hover preview on block links",
+                    "target": "在块链接上触发悬停预览"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Trigger hover preview on footnotes",
+                    "target": "在脚注上触发悬停预览"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Auto Focus",
+                    "target": "自动聚焦"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Minimize downwards",
+                    "target": "向下最小化"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Snap to edges",
+                    "target": "对齐到边缘"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show view header by default",
+                    "target": "默认显示视图标题"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Click to zoom image",
+                    "target": "点击放大图片"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Initial popover width",
+                    "target": "初始气泡弹出窗口宽度"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Initial popover height",
+                    "target": "初始气泡弹出窗口高度"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Hover Trigger Delay (ms)",
+                    "target": "悬停触发延迟 (ms)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Hover Close Delay (ms)",
+                    "target": "悬停关闭延迟 (ms)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Dock Hover Editor to workspace",
+                    "target": "将悬浮编辑器钉接到工作区"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Open in Hover Editor",
+                    "target": "在悬浮编辑器中打开"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Convert to Hover Editor",
+                    "target": "转换为悬浮编辑器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "drag",
+                    "target": "拖拽"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "gesture",
+                    "target": "手势"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "resize",
+                    "target": "调整大小"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Toggle bouncing popovers",
+                    "target": "切换弹跳式气泡"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open new Hover Editor",
+                    "target": "打开新的悬浮编辑器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open link under cursor in new Hover Editor",
+                    "target": "在新的悬浮编辑器中打开光标下的链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open current file in new Hover Editor",
+                    "target": "在新的悬浮编辑器中打开当前文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Convert active pane to Hover Editor",
+                    "target": "将活动面板转换为悬浮编辑器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Dock active Hover Editor to workspace",
+                    "target": "将活动的悬浮编辑器钉接到工作区"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Restore active Hover Editor",
+                    "target": "恢复活动的悬浮编辑器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Minimize active Hover Editor",
+                    "target": "最小化活动的悬浮编辑器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Consider adding CSS \"touch-action: none\" to this element\n",
+                    "target": "考虑向此元素添加CSS样式“touch-action: none”\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Consider adding CSS \"box-sizing: border-box\" to this resizable element",
+                    "target": "考虑向这个可调整大小的元素添加CSS样式“box-sizing: border-box”"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "There are no listeners set for this action",
+                    "target": "为该操作尚未设置任何侦听器"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "appendText(\" \"+o.name)}),g.addEventListener(\"click\",()=>this.plugin.app.openWithDefaultApp(o.path)),g.setAttribute(\"aria-label\",i18next.t(\"interface.embed-open-in-default-app-tooltip\")",
+                    "target": "appendText(\" \"+o.name)}),g.addEventListener(\"click\",()=>this.plugin.app.openWithDefaultApp(o.path)),g.setAttribute(\"aria-label\",i18next.t(\"interface.embed-open-in-default-app-tooltip\")"
+                },
+                {
+                    "source": "setName(\"Default Mode\")",
+                    "target": "setName(\"Default Mode\")"
+                },
+                {
+                    "source": "setName(\"Auto Pin\")",
+                    "target": "setName(\"Auto Pin\")"
+                },
+                {
+                    "source": "setName(\"Trigger hover preview on embeds\")",
+                    "target": "setName(\"Trigger hover preview on embeds\")"
+                },
+                {
+                    "source": "setDesc(\"Allow hover preview to trigger when hovering over any type of rendered embed such as images or block references\")",
+                    "target": "setDesc(\"Allow hover preview to trigger when hovering over any type of rendered embed such as images or block references\")"
+                },
+                {
+                    "source": "setName(\"Trigger hover preview on sub-heading links\")",
+                    "target": "setName(\"Trigger hover preview on sub-heading links\")"
+                },
+                {
+                    "source": "setDesc(\"Use hover editor for links to subheadings, instead of the built-in preview/editor\")",
+                    "target": "setDesc(\"Use hover editor for links to subheadings, instead of the built-in preview/editor\")"
+                },
+                {
+                    "source": "setName(\"Trigger hover preview on block links\")",
+                    "target": "setName(\"Trigger hover preview on block links\")"
+                },
+                {
+                    "source": "setDesc(\"Use hover editor for links to blocks, instead of the built-in preview/editor\")",
+                    "target": "setDesc(\"Use hover editor for links to blocks, instead of the built-in preview/editor\")"
+                },
+                {
+                    "source": "setName(\"Trigger hover preview on footnotes\")",
+                    "target": "setName(\"Trigger hover preview on footnotes\")"
+                },
+                {
+                    "source": "setDesc(\"Use hover editor for footnotes, instead of the built-in preview/editor\")",
+                    "target": "setDesc(\"Use hover editor for footnotes, instead of the built-in preview/editor\")"
+                },
+                {
+                    "source": "setName(\"Auto Focus\")",
+                    "target": "setName(\"Auto Focus\")"
+                },
+                {
+                    "source": "setDesc(\"Set the hover editor as the active pane when opened\")",
+                    "target": "setDesc(\"Set the hover editor as the active pane when opened\")"
+                },
+                {
+                    "source": "setName(\"Minimize downwards\")",
+                    "target": "setName(\"Minimize downwards\")"
+                },
+                {
+                    "source": "setDesc(\"When double clicking to minimize, the window will roll down instead of rolling up\")",
+                    "target": "setDesc(\"When double clicking to minimize, the window will roll down instead of rolling up\")"
+                },
+                {
+                    "source": "setName(\"Snap to edges\")",
+                    "target": "setName(\"Snap to edges\")"
+                },
+                {
+                    "source": "setName(\"Show view header by default\")",
+                    "target": "setName(\"Show view header by default\")"
+                },
+                {
+                    "source": "setDesc(`Show the view header by default when triggering a hover editor.\n         When disabled, view headers will only show if you click the view header icon to the left of the minimize button.`)",
+                    "target": "setDesc(`Show the view header by default when triggering a hover editor.\n         When disabled, view headers will only show if you click the view header icon to the left of the minimize button.`)"
+                },
+                {
+                    "source": "setName(\"Click to zoom image\")",
+                    "target": "setName(\"Click to zoom image\")"
+                },
+                {
+                    "source": "setDesc(`Click and hold an image within a hover editor to temporarily maximize the popover and image to fill the entire viewport. \n        On mouse up, the hover editor will restore to its original size.`)",
+                    "target": "setDesc(`Click and hold an image within a hover editor to temporarily maximize the popover and image to fill the entire viewport. \n        On mouse up, the hover editor will restore to its original size.`)"
+                },
+                {
+                    "source": "setName(\"Initial popover width\")",
+                    "target": "setName(\"Initial popover width\")"
+                },
+                {
+                    "source": "setDesc(\"Enter any valid CSS unit\")",
+                    "target": "setDesc(\"Enter any valid CSS unit\")"
+                },
+                {
+                    "source": "setName(\"Initial popover height\")",
+                    "target": "setName(\"Initial popover height\")"
+                },
+                {
+                    "source": "setName(\"Hover Trigger Delay (ms)\")",
+                    "target": "setName(\"Hover Trigger Delay (ms)\")"
+                },
+                {
+                    "source": "setDesc(\"How long to wait before showing a Hover Editor when hovering over a link\")",
+                    "target": "setDesc(\"How long to wait before showing a Hover Editor when hovering over a link\")"
+                },
+                {
+                    "source": "setName(\"Hover Close Delay (ms)\")",
+                    "target": "setName(\"Hover Close Delay (ms)\")"
+                },
+                {
+                    "source": "setDesc(\"How long to wait before closing a Hover Editor once the mouse leaves\")",
+                    "target": "setDesc(\"How long to wait before closing a Hover Editor once the mouse leaves\")"
+                },
+                {
+                    "source": "setTitle(\"Dock Hover Editor to workspace\")",
+                    "target": "setTitle(\"Dock Hover Editor to workspace\")"
+                },
+                {
+                    "source": "setTitle(\"Open in Hover Editor\")",
+                    "target": "setTitle(\"Open in Hover Editor\")"
+                },
+                {
+                    "source": "setTitle(\"Convert to Hover Editor\")",
+                    "target": "setTitle(\"Convert to Hover Editor\")"
+                },
+                {
+                    "source": "text:`Consider adding CSS \"touch-action: none\" to this element\n`",
+                    "target": "text:`Consider adding CSS \"touch-action: none\" to this element\n`"
+                },
+                {
+                    "source": "text:'Consider adding CSS \"box-sizing: border-box\" to this resizable element'",
+                    "target": "text:'Consider adding CSS \"box-sizing: border-box\" to this resizable element'"
+                },
+                {
+                    "source": "text:\"There are no listeners set for this action\"",
+                    "target": "text:\"There are no listeners set for this action\""
+                },
+                {
+                    "source": "textContent=`${o} is not yet created. Click to create.`",
+                    "target": "textContent=`${o} is not yet created. Click to create.`"
+                },
+                {
+                    "source": "name:\"Toggle bouncing popovers\"",
+                    "target": "name:\"Toggle bouncing popovers\""
+                },
+                {
+                    "source": "name:\"Open new Hover Editor\"",
+                    "target": "name:\"Open new Hover Editor\""
+                },
+                {
+                    "source": "name:\"Open link under cursor in new Hover Editor\"",
+                    "target": "name:\"Open link under cursor in new Hover Editor\""
+                },
+                {
+                    "source": "name:\"Open current file in new Hover Editor\"",
+                    "target": "name:\"Open current file in new Hover Editor\""
+                },
+                {
+                    "source": "name:\"Convert active pane to Hover Editor\"",
+                    "target": "name:\"Convert active pane to Hover Editor\""
+                },
+                {
+                    "source": "name:\"Dock active Hover Editor to workspace\"",
+                    "target": "name:\"Dock active Hover Editor to workspace\""
+                },
+                {
+                    "source": "name:\"Restore active Hover Editor\"",
+                    "target": "name:\"Restore active Hover Editor\""
+                },
+                {
+                    "source": "name:\"Minimize active Hover Editor\"",
+                    "target": "name:\"Minimize active Hover Editor\""
+                },
+                {
+                    "source": "name:`Snap active Hover Editor to ${o}`",
+                    "target": "name:`Snap active Hover Editor to ${o}`"
+                }
+            ]
+        }
+    }
+}
