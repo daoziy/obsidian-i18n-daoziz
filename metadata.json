@@ -102,5 +102,18 @@
         "created_at": "2026-04-07T12:09:23.823Z",
         "updated_at": "2026-04-07T12:09:23.823Z",
         "type": "plugin"
+    },
+    {
+        "id": "BtegZcDIgWWYEK1bljCICULb8jtJJXEW",
+        "plugin": "horizontal-blocks",
+        "language": "zh-cn",
+        "version": "1.1.0",
+        "supported_versions": "1.1.0",
+        "title": "Horizontal Blocks",
+        "description": "添加水平块",
+        "hash": "5b3fba545b3fba545b3fba545b3fba54",
+        "created_at": "2026-04-07T12:15:25.460Z",
+        "updated_at": "2026-04-07T12:15:25.460Z",
+        "type": "plugin"
     }
 ]
