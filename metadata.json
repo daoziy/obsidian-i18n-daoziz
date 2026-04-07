@@ -1,41 +1,54 @@
 [
-  {
-    "id": "J0C2oZd-YI_UPpalP3jTka7eC1IBdBF-",
-    "plugin": "obsidian-chartsview-plugin",
-    "language": "zh-cn",
-    "version": "1.2.8",
-    "supported_versions": "1.2.8",
-    "title": "Charts View",
-    "description": "为obsidian添加本地图表视图",
-    "hash": "59a800ab59a800ab59a800ab59a800ab",
-    "created_at": "2026-04-06T15:52:25.149Z",
-    "updated_at": "2026-04-06T15:52:25.149Z",
-    "type": "plugin"
-  },
-  {
-    "id": "OznRCJFBOT1j9YyYyjJzJ_EqSzaMbFcx",
-    "plugin": "obsidian-auto-link-title",
-    "type": "plugin",
-    "language": "zh-cn",
-    "version": "1.5.5",
-    "supported_versions": "1.5.5",
-    "title": "Auto Link Title",
-    "description": "自动识别链接标题",
-    "hash": "4258842c4258842c4258842c4258842c",
-    "created_at": "2026-04-06T16:00:23.588Z",
-    "updated_at": "2026-04-06T16:00:23.588Z"
-  },
-  {
-    "id": "GmjVnfKBSXPwV_zFWo3hMCgZ-AwQJnIp",
-    "plugin": "dynamic-outline",
-    "type": "plugin",
-    "language": "zh-cn",
-    "version": "1.19.0",
-    "supported_versions": "1.19.0",
-    "title": "Dynamic Outline",
-    "description": "Dynamic Outline Localization & Tweaks",
-    "hash": "2615edd02615edd02615edd02615edd0",
-    "created_at": "2026-04-07T07:51:55.812Z",
-    "updated_at": "2026-04-07T07:51:55.812Z"
-  }
+    {
+        "id": "J0C2oZd-YI_UPpalP3jTka7eC1IBdBF-",
+        "plugin": "obsidian-chartsview-plugin",
+        "language": "zh-cn",
+        "version": "1.2.8",
+        "supported_versions": "1.2.8",
+        "title": "Charts View",
+        "description": "为obsidian添加本地图表视图",
+        "hash": "59a800ab59a800ab59a800ab59a800ab",
+        "created_at": "2026-04-06T15:52:25.149Z",
+        "updated_at": "2026-04-06T15:52:25.149Z",
+        "type": "plugin"
+    },
+    {
+        "id": "OznRCJFBOT1j9YyYyjJzJ_EqSzaMbFcx",
+        "plugin": "obsidian-auto-link-title",
+        "type": "plugin",
+        "language": "zh-cn",
+        "version": "1.5.5",
+        "supported_versions": "1.5.5",
+        "title": "Auto Link Title",
+        "description": "自动识别链接标题",
+        "hash": "4258842c4258842c4258842c4258842c",
+        "created_at": "2026-04-06T16:00:23.588Z",
+        "updated_at": "2026-04-06T16:00:23.588Z"
+    },
+    {
+        "id": "GmjVnfKBSXPwV_zFWo3hMCgZ-AwQJnIp",
+        "plugin": "dynamic-outline",
+        "type": "plugin",
+        "language": "zh-cn",
+        "version": "1.19.0",
+        "supported_versions": "1.19.0",
+        "title": "Dynamic Outline",
+        "description": "Dynamic Outline Localization & Tweaks",
+        "hash": "2615edd02615edd02615edd02615edd0",
+        "created_at": "2026-04-07T07:51:55.812Z",
+        "updated_at": "2026-04-07T07:51:55.812Z"
+    },
+    {
+        "id": "76qOITAFZYVFR8msBuNE7tlwtmeNNo2C",
+        "plugin": "cmdr",
+        "language": "zh-cn",
+        "version": "0.5.4",
+        "supported_versions": "0.5.4",
+        "title": "Commander",
+        "description": "调整不同区域的命令按钮",
+        "hash": "44d8c61a44d8c61a44d8c61a44d8c61a",
+        "created_at": "2026-04-07T08:18:44.271Z",
+        "updated_at": "2026-04-07T08:18:44.271Z",
+        "type": "plugin"
+    }
 ]
