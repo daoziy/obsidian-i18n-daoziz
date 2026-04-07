@@ -1,0 +1,442 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "horizontal-blocks",
+        "version": "1.1.0",
+        "title": "Horizontal Blocks",
+        "description": "添加水平块",
+        "language": "zh-cn",
+        "supportedVersions": "1.1.0",
+        "author": "daoziz"
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "title",
+                    "source": "Block background",
+                    "target": "背景"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "title",
+                    "source": "Text color",
+                    "target": "文本颜色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "confirm",
+                    "source": "Reset divider and block styling to defaults (keeps widths)?",
+                    "target": "重置分隔符和区块样式为默认值（保留宽度）？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Horizontal Blocks: failed to load embed",
+                    "target": "水平区块：加载嵌入失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Reset to defaults",
+                    "target": "重置为默认值"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Use theme colors instead of custom picks. Disabling this option will enable color selection in below sections.",
+                    "target": "使用主题颜色而不是自定义选择。禁用此选项将在以下部分启用颜色选择。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Resizer divider color",
+                    "target": "分隔符的调整器颜色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Divider thickness (px)",
+                    "target": "分隔线厚度（像素）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Divider opacity",
+                    "target": "分隔线透明度"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Divider line style",
+                    "target": "分隔线样式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Default background for blocks",
+                    "target": "块的默认背景颜色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Default text color for blocks",
+                    "target": "块的默认文本颜色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Default color for block titles",
+                    "target": "块标题的默认颜色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Zebra-style subtle alternating backgrounds",
+                    "target": "条纹风格的微妙交替背景"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Padding inside each block (px)",
+                    "target": "每个块内的填充（像素）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Hide/show toolbar region (if present)",
+                    "target": "显示/隐藏工具栏区域（如果存在）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Inner shadow color during resizing",
+                    "target": "缩放时内部阴影颜色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Restores all styling options to their default values.",
+                    "target": "将所有样式选项恢复为其默认值。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Theme-aware colors",
+                    "target": "适配主题颜色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Color",
+                    "target": "颜色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Thickness",
+                    "target": "厚度"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Opacity",
+                    "target": "不透明度"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Style",
+                    "target": "样式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Background color",
+                    "target": "背景颜色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Text color",
+                    "target": "文本颜色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Title text color",
+                    "target": "标题文本颜色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Alternating shading",
+                    "target": "交替着色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show borders",
+                    "target": "显示边框"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Border radius",
+                    "target": "边框圆角"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Border thickness",
+                    "target": "边框厚度"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Inner padding",
+                    "target": "内边距"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Gap between blocks",
+                    "target": "块之间的间隔"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Toolbar visibility",
+                    "target": "工具栏可见性"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Divider hover accent",
+                    "target": "分隔符悬停高亮"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Drag active highlight",
+                    "target": "拖动激活高亮"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Reset styling to defaults",
+                    "target": "重置样式为默认值"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Horizontal Blocks styling reset (widths preserved).",
+                    "target": "水平块的样式重置（宽度保留）。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "dashed",
+                    "source": "Dashed",
+                    "target": "虚线"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "dotted",
+                    "source": "Dotted",
+                    "target": "点划线"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "solid",
+                    "source": "Solid",
+                    "target": "实线"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Horizontal Blocks – Styling",
+                    "target": "水平块 – 样式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Divider",
+                    "target": "分割线"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Blocks",
+                    "target": "块"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Spacing & Density",
+                    "target": "间距与密度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Preview Style Accents",
+                    "target": "预览样式标记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Reset",
+                    "target": "重置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "transparent",
+                    "source": "Transparent",
+                    "target": "透明"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "error(\"Horizontal Blocks: failed to load embed\",s),this.renderError(\"Error loading embedded note.\")",
+                    "target": "error(\"Horizontal Blocks: failed to load embed\",s),this.renderError(\"Error loading embedded note.\")"
+                },
+                {
+                    "source": "setTitle(`${s?\"Hide\":\"Show\"} toolbar`)",
+                    "target": "setTitle(`${s?\"Hide\":\"Show\"} toolbar`)"
+                },
+                {
+                    "source": "setTitle(`${n?\"Hide\":\"Show\"} borders`)",
+                    "target": "setTitle(`${n?\"Hide\":\"Show\"} borders`)"
+                },
+                {
+                    "source": "setTitle(`${l?\"Disable\":\"Enable\"} alternating shading`)",
+                    "target": "setTitle(`${l?\"Disable\":\"Enable\"} alternating shading`)"
+                },
+                {
+                    "source": "setName(\"Theme-aware colors\")",
+                    "target": "setName(\"Theme-aware colors\")"
+                },
+                {
+                    "source": "setDesc(\"Use theme colors instead of custom picks. Disabling this option will enable color selection in below sections.\")",
+                    "target": "setDesc(\"Use theme colors instead of custom picks. Disabling this option will enable color selection in below sections.\")"
+                },
+                {
+                    "source": "setDesc(\"Resizer divider color\")",
+                    "target": "setDesc(\"Resizer divider color\")"
+                },
+                {
+                    "source": "setDesc(\"Divider thickness (px)\")",
+                    "target": "setDesc(\"Divider thickness (px)\")"
+                },
+                {
+                    "source": "setDesc(\"Divider opacity\")",
+                    "target": "setDesc(\"Divider opacity\")"
+                },
+                {
+                    "source": "setDesc(\"Divider line style\")",
+                    "target": "setDesc(\"Divider line style\")"
+                },
+                {
+                    "source": "setName(\"Background color\")",
+                    "target": "setName(\"Background color\")"
+                },
+                {
+                    "source": "setDesc(\"Default background for blocks\")",
+                    "target": "setDesc(\"Default background for blocks\")"
+                },
+                {
+                    "source": "setName(\"Text color\")",
+                    "target": "setName(\"Text color\")"
+                },
+                {
+                    "source": "setDesc(\"Default text color for blocks\")",
+                    "target": "setDesc(\"Default text color for blocks\")"
+                },
+                {
+                    "source": "setName(\"Title text color\")",
+                    "target": "setName(\"Title text color\")"
+                },
+                {
+                    "source": "setDesc(\"Default color for block titles\")",
+                    "target": "setDesc(\"Default color for block titles\")"
+                },
+                {
+                    "source": "setName(\"Alternating shading\")",
+                    "target": "setName(\"Alternating shading\")"
+                },
+                {
+                    "source": "setDesc(\"Zebra-style subtle alternating backgrounds\")",
+                    "target": "setDesc(\"Zebra-style subtle alternating backgrounds\")"
+                },
+                {
+                    "source": "setName(\"Show borders\")",
+                    "target": "setName(\"Show borders\")"
+                },
+                {
+                    "source": "setName(\"Border radius\")",
+                    "target": "setName(\"Border radius\")"
+                },
+                {
+                    "source": "setName(\"Border thickness\")",
+                    "target": "setName(\"Border thickness\")"
+                },
+                {
+                    "source": "setName(\"Inner padding\")",
+                    "target": "setName(\"Inner padding\")"
+                },
+                {
+                    "source": "setDesc(\"Padding inside each block (px)\")",
+                    "target": "setDesc(\"Padding inside each block (px)\")"
+                },
+                {
+                    "source": "setName(\"Gap between blocks\")",
+                    "target": "setName(\"Gap between blocks\")"
+                },
+                {
+                    "source": "setName(\"Toolbar visibility\")",
+                    "target": "setName(\"Toolbar visibility\")"
+                },
+                {
+                    "source": "setDesc(\"Hide/show toolbar region (if present)\")",
+                    "target": "setDesc(\"Hide/show toolbar region (if present)\")"
+                },
+                {
+                    "source": "setName(\"Divider hover accent\")",
+                    "target": "setName(\"Divider hover accent\")"
+                },
+                {
+                    "source": "setName(\"Drag active highlight\")",
+                    "target": "setName(\"Drag active highlight\")"
+                },
+                {
+                    "source": "setDesc(\"Inner shadow color during resizing\")",
+                    "target": "setDesc(\"Inner shadow color during resizing\")"
+                },
+                {
+                    "source": "setName(\"Reset styling to defaults\")",
+                    "target": "setName(\"Reset styling to defaults\")"
+                },
+                {
+                    "source": "setDesc(\"Restores all styling options to their default values.\")",
+                    "target": "setDesc(\"Restores all styling options to their default values.\")"
+                },
+                {
+                    "source": "setButtonText(\"Reset to defaults\")",
+                    "target": "setButtonText(\"Reset to defaults\")"
+                },
+                {
+                    "source": "Notice(\"Horizontal Blocks styling reset (widths preserved).\")",
+                    "target": "Notice(\"Horizontal Blocks styling reset (widths preserved).\")"
+                },
+                {
+                    "source": "text:\"Spacing & Density\"",
+                    "target": "text:\"Spacing & Density\""
+                },
+                {
+                    "source": "text:\"Preview Style Accents\"",
+                    "target": "text:\"Preview Style Accents\""
+                }
+            ]
+        }
+    }
+}
