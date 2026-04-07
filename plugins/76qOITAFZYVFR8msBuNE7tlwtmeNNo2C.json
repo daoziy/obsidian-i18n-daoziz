@@ -1,0 +1,358 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "cmdr",
+        "version": "0.5.4",
+        "title": "Commander",
+        "description": "调整不同区域的命令按钮",
+        "language": "zh-cn",
+        "supportedVersions": "0.5.4",
+        "author": "daoziz"
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Commander",
+                    "target": "Commander"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "button",
+                    "target": "button"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "style",
+                    "target": "style"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "div",
+                    "target": "div"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error: dictionary locale not found",
+                    "target": "错误：字典区域未找到"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "No Icon",
+                    "target": "无图标"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Set how many Rows the Mobile Toolbar should have. Set this to 0 to remove the Toolbar.",
+                    "target": "设置移动工具栏应该有多少行。将其设置为0以删除该工具栏。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Use a column based layout instead of the default row. This makes it easier to arrange the Commands.",
+                    "target": "使用列布局而不是默认的行布局。这使命令更容易排列。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Offset the Toolbar from the Bottom of the Screen. This is useful if the toolbar is partially obscured by other UI Elements.",
+                    "target": "将工具栏从屏幕底部偏移。如果工具栏部分被其他UI元素遮挡，这很有用。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Change the Height of each Button inside the Mobile Toolbar (in px).",
+                    "target": "更改移动工具栏内每个按钮的高度（以px为单位）。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Change the Width of each Button inside the Mobile Toolbar (in px).",
+                    "target": "更改移动工具栏中每个按钮的宽度（以像素为单位）。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Some Themes need extra spacing in the toolbar. If your Toolbar doesn't wrap properly, try increasing this value.",
+                    "target": "某些主题在工具栏中需要额外的空间。如果您的工具栏没有正确换行，请尝试增加此值。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Toolbar Row Count",
+                    "target": "工具栏行数"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Column Layout",
+                    "target": "列布局"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Bottom Offset",
+                    "target": "底部偏移量"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Button Height",
+                    "target": "按钮高度"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Button Width",
+                    "target": "按钮宽度"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Toolbar Extra Spacing",
+                    "target": "工具栏额外间距"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Macro Builder",
+                    "target": "宏构建器"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Reset to default - Requires a restart",
+                    "target": "重置为默认值 - 需要重启"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "🎊 Could not load worker",
+                    "target": "🎊 无法加载工作者"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "If the default Icon doesn't appear, you might have to restart Obsidian.",
+                    "target": "如果默认图标没有出现，您可能需要重启Obsidian。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "Edit Macro",
+                    "target": "编辑宏"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "Delete",
+                    "target": "删除"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "cmdr clickable-icon",
+                    "target": "cmdr clickable-icon"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "cmdr status-bar-item cmdr-adder",
+                    "target": "cmdr status-bar-item cmdr-adder"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "cmdr status-bar-item clickable-icon",
+                    "target": "cmdr status-bar-item clickable-icon"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Core Plugin",
+                    "target": "核心插件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Delay in milliseconds",
+                    "target": "毫秒延迟"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Show the \"Add Command\" Button in every Menu.",
+                    "target": "在每个菜单中显示“添加命令”按钮。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Delay",
+                    "target": "延迟"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Macros",
+                    "target": "宏"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Macro Name",
+                    "target": "宏名"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Custom Icons",
+                    "target": "自定义图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Advanced Settings",
+                    "target": "高级设置"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "setName(\"Toolbar Row Count\")",
+                    "target": "setName(\"工具栏行数\")"
+                },
+                {
+                    "source": "setDesc(\"Set how many Rows the Mobile Toolbar should have. Set this to 0 to remove the Toolbar.\")",
+                    "target": "setDesc(\"设置移动工具栏应该有多少行。设为0以移除工具栏。\")"
+                },
+                {
+                    "source": "setName(\"Column Layout\")",
+                    "target": "setName(\"列布局\")"
+                },
+                {
+                    "source": "setDesc(\"Use a column based layout instead of the default row. This makes it easier to arrange the Commands.\")",
+                    "target": "setDesc(\"使用基于列的布局而不是默认的行布局。这使命令排列更方便。\")"
+                },
+                {
+                    "source": "setName(\"Bottom Offset\")",
+                    "target": "setName(\"底部偏移\")"
+                },
+                {
+                    "source": "setDesc(\"Offset the Toolbar from the Bottom of the Screen. This is useful if the toolbar is partially obscured by other UI Elements.\")",
+                    "target": "setDesc(\"将工具栏从屏幕底部偏移。如果工具栏部分被其他UI元素遮挡，这很有用。\")"
+                },
+                {
+                    "source": "setButtonText(\"No Icon\")",
+                    "target": "setButtonText(\"无图标\")"
+                },
+                {
+                    "source": "setTooltip(\"Reset to default - Requires a restart\")",
+                    "target": "setTooltip(\"重置为默认值 - 需要重启\")"
+                },
+                {
+                    "source": "Notice(\"If the default Icon doesn't appear, you might have to restart Obsidian.\")",
+                    "target": "Notice(\"如果默认图标没有出现，您可能需要重启Obsidian。\")"
+                },
+                {
+                    "source": "setName(\"Button Height\")",
+                    "target": "setName(\"按钮高度\")"
+                },
+                {
+                    "source": "setDesc(\"Change the Height of each Button inside the Mobile Toolbar (in px).\")",
+                    "target": "setDesc(\"更改Mobile Toolbar中每个按钮的高度（以px为单位）。\")"
+                },
+                {
+                    "source": "setName(\"Button Width\")",
+                    "target": "setName(\"按钮宽度\")"
+                },
+                {
+                    "source": "setDesc(\"Change the Width of each Button inside the Mobile Toolbar (in px).\")",
+                    "target": "setDesc(\"更改Mobile Toolbar中每个按钮的宽度（以px为单位）。\")"
+                },
+                {
+                    "source": "setName(\"Toolbar Extra Spacing\")",
+                    "target": "setName(\"工具栏额外间距\")"
+                },
+                {
+                    "source": "setDesc(\"Some Themes need extra spacing in the toolbar. If your Toolbar doesn't wrap properly, try increasing this value.\")",
+                    "target": "setDesc(\"一些主题需要在工具栏中增加额外间距。如果您发现工具栏没有正确换行，请尝试增加此值。\")"
+                },
+                {
+                    "source": "setText(\"Macro Builder\")",
+                    "target": "setText(\"宏生成器\")"
+                },
+                {
+                    "source": "text:\"Custom Icons\"",
+                    "target": "text:\"自定义图标\""
+                },
+                {
+                    "source": "text:\"Advanced Settings\"",
+                    "target": "text:\"高级设置\""
+                },
+                {
+                    "source": "description:\"Core Plugin\"",
+                    "target": "description:\"核心插件\""
+                },
+                {
+                    "source": "description:\"Delay in milliseconds\"",
+                    "target": "description:\"毫秒延迟\""
+                },
+                {
+                    "source": "description:'Show the \"Add Command\" Button in every Menu.'",
+                    "target": "description:'在每个菜单中显示“添加命令”按钮。'"
+                },
+                {
+                    "source": "\"Reordering and Sorting\"",
+                    "target": "\"重新排序和排序\""
+                },
+                {
+                    "source": "\"As of Obsidian 1.1.0 you can reorder the Buttons in the left ribbon by dragging. This will replace the old sorting feature.\"",
+                    "target": "\"从Obsidian 1.1.0开始，您可以通过拖动来重新排列左侧条形图中的按钮。这将替换旧的排序功能。\""
+                },
+                {
+                    "source": "\"As of Obsidian 0.16.0 you need to explicitly enable the Tab Title Bar. Once enabled, you might need to restart Obsidian.\"",
+                    "target": "\"从Obsidian 0.16.0开始，您需要显式启用标签标题栏。一旦启用，您可能需要重新启动Obsidian。\""
+                },
+                {
+                    "source": "\"Open Appearance Settings\"",
+                    "target": "\"打开外观设置\""
+                },
+                {
+                    "source": "\"Explorer\"",
+                    "target": "\"资源管理器\""
+                },
+                {
+                    "source": "\"When clicking on a Command in the Explorer, the Explorer view will become focused. This might interfere with Commands that are supposed to be executed on an active File/Explorer.\"",
+                    "target": "\"当在资源管理器中点击一个命令时，资源管理器视图将变得突出显示。这可能会干扰本应在活动文件/资源管理器上执行的命令。\""
+                },
+                {
+                    "source": "\"Toolbar\"",
+                    "target": "\"工具栏\""
+                },
+                {
+                    "source": "\"Info\"",
+                    "target": "\"提示\""
+                },
+                {
+                    "source": "\"The Toolbar is only available in Obsidian Mobile. \"",
+                    "target": "\"仅在Obsidian移动版中可用。\""
+                },
+                {
+                    "source": "\"No Macros yet!\"",
+                    "target": "\"还没有宏！\""
+                },
+                {
+                    "source": "\"Add Macro\"",
+                    "target": "\"添加宏\""
+                }
+            ]
+        }
+    }
+}
