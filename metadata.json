@@ -33,10 +33,10 @@
         "version": "1.19.0",
         "supported_versions": "1.19.0",
         "title": "Dynamic Outline",
-        "description": "Dynamic Outline Localization & Tweaks",
-        "hash": "2615edd02615edd02615edd02615edd0",
+        "description": "添加动态大纲目录",
+        "hash": "208360c5208360c5208360c5208360c5",
         "created_at": "2026-04-07T07:51:55.812Z",
-        "updated_at": "2026-04-07T07:51:55.812Z"
+        "updated_at": "2026-04-07T12:02:30.771Z"
     },
     {
         "id": "76qOITAFZYVFR8msBuNE7tlwtmeNNo2C",
