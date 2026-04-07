@@ -89,5 +89,18 @@
         "created_at": "2026-04-07T12:06:28.579Z",
         "updated_at": "2026-04-07T12:06:28.579Z",
         "type": "plugin"
+    },
+    {
+        "id": "QyLBX3mPpVQy9GLNpvRrO0UGShxydS4H",
+        "plugin": "obsidian-hider",
+        "language": "zh-cn",
+        "version": "1.5.1",
+        "supported_versions": "1.5.1",
+        "title": "Hider",
+        "description": "隐藏各类界面元素",
+        "hash": "7c3d4b917c3d4b917c3d4b917c3d4b91",
+        "created_at": "2026-04-07T12:09:23.823Z",
+        "updated_at": "2026-04-07T12:09:23.823Z",
+        "type": "plugin"
     }
 ]
