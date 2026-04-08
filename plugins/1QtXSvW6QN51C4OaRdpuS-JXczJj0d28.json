@@ -1,0 +1,180 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "open-tab-settings",
+        "version": "2.0.0",
+        "title": "Open Tab Settings",
+        "description": "新标签中打开笔记",
+        "language": "zh-cn",
+        "supportedVersions": "2.0.0",
+        "author": "daoziz"
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Open files in a new tab by default.",
+                    "target": "默认在新标签页中打开文件。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "If a tab is already open, switch to it instead of re-opening it.",
+                    "target": "如果已经打开了标签页，则切换到它而不是重新打开。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Whether to switch to already open file even if its in a split pane or popout window",
+                    "target": "是否在分屏或弹出窗口中即使已打开文件也要切换到该文件。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Immediately switch to new tabs opened via middle or ctrl click instead of opening them in the background. New tabs created by regular click will always focus regardless.",
+                    "target": "通过中间点击或Ctrl点击立即切换新打开的标签页，而不是将它们放在后台。无论何时通过常规点击创建的新标签页都将始终获得焦点。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Place new tabs...",
+                    "target": "放置新标签..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "When the workspace is split, prefer to open new tabs...",
+                    "target": "当工作区被分割时，优先在何处打开新的标签页..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "On Ctrl/Cmd/middle click open links...",
+                    "target": "在按住Ctrl/Cmd或中间点击时打开链接..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Always open in new tab",
+                    "target": "总是新开标签页"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Prevent duplicate tabs",
+                    "target": "防止重复标签页"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Deduplicate across tab groups",
+                    "target": "跨标签组去重"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Focus explicit new tabs",
+                    "target": "聚焦显式的新标签页"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "New tab placement",
+                    "target": "新建标签页位置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "New tab tab group placement",
+                    "target": "新建标签组位置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Mod click behavior",
+                    "target": "修改点击行为"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Open in same tab",
+                    "target": "在同一标签页打开"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Open in duplicate tab",
+                    "target": "在新标签页中打开"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Open in opposite tab group",
+                    "target": "在相反的标签组中打开"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Cycle tab group placement",
+                    "target": "循环标签组位置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tab",
+                    "source": "In new tab",
+                    "target": "在新标签中"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tab",
+                    "source": "tab",
+                    "target": "标签"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "\"After active tab\"",
+                    "target": "\"激活标签后\""
+                },
+                {
+                    "source": "\"After pinned tabs\"",
+                    "target": "\"固定标签后\""
+                },
+                {
+                    "source": "\"At beginning\"",
+                    "target": "\"开头处\""
+                },
+                {
+                    "source": "\"At end\"",
+                    "target": "\"结尾处\""
+                },
+                {
+                    "source": "\"In same tab group\"",
+                    "target": "\"在同一个标签组中\""
+                },
+                {
+                    "source": "\"In opposite tab group\"",
+                    "target": "\"在相反的标签组中\""
+                },
+                {
+                    "source": "\"In first tab group\"",
+                    "target": "\"在第一个标签组中\""
+                },
+                {
+                    "source": "\"In last tab group\"",
+                    "target": "\"在最后一个标签组中\""
+                },
+                {
+                    "source": "\"In same tab\"",
+                    "target": "\"在同一个标签页中\""
+                },
+                {
+                    "source": "\"In duplicate tab\"",
+                    "target": "\"在复制的标签页中\""
+                }
+            ]
+        }
+    }
+}
