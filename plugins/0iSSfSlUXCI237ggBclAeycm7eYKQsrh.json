@@ -1,0 +1,90 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "remember-scrollposition",
+        "version": "1.0.5",
+        "title": "Remember Scrollposition",
+        "description": "记住浏览笔记时的滚动位置",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.5",
+        "author": "daoziz"
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "RememberScrollposition: No access to codemirror instance available, thus cannot retrieve necessary information to save scroll position. Exiting.",
+                    "target": "RememberScrollposition：无法获取 codemirror 实例，因此无法检索必要的信息来保存滚动位置。退出。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "RememberScrollposition: restoreScrollposition was called with invalid parameters.",
+                    "target": "RememberScrollposition：restoreScrollposition 被传入了无效参数。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Scroll instantly to saved position upon loading a note",
+                    "target": "加载笔记时立即滚动到已保存的位置。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Configure how many days a scroll position should be applied before considered outdated. Leave empty to disable age check.",
+                    "target": "配置滚动位置在被认为过期之前应该应用多少天。为空则禁用过期检查。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Max age needs to be set to a positive number.",
+                    "target": "最大年龄需要设置为正数。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Scroll instantly",
+                    "target": "瞬间滚动"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Max age in days",
+                    "target": "最大天数"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "error(\"RememberScrollposition: No access to codemirror instance available, thus cannot retrieve necessary information to save scroll position. Exiting.\")",
+                    "target": "error(\"RememberScrollposition: No access to codemirror instance available, thus cannot retrieve necessary information to save scroll position. Exiting.\")"
+                },
+                {
+                    "source": "error(`RememberScrollposition: Could not retrieve editor range to save scroll position for ${s}. Exiting.`)",
+                    "target": "error(`RememberScrollposition: Could not retrieve editor range to save scroll position for ${s}. Exiting.`)"
+                },
+                {
+                    "source": "description:\"Scroll active file to saved position\"",
+                    "target": "description:\"Scroll active file to saved position\""
+                },
+                {
+                    "source": "name:\"Scroll instantly\"",
+                    "target": "name:\"Scroll instantly\""
+                },
+                {
+                    "source": "description:\"Scroll instantly to saved position upon loading a note\"",
+                    "target": "description:\"Scroll instantly to saved position upon loading a note\""
+                },
+                {
+                    "source": "name:\"Max age in days\"",
+                    "target": "name:\"Max age in days\""
+                },
+                {
+                    "source": "description:\"Configure how many days a scroll position should be applied before considered outdated. Leave empty to disable age check.\"",
+                    "target": "description:\"Configure how many days a scroll position should be applied before considered outdated. Leave empty to disable age check.\""
+                }
+            ]
+        }
+    }
+}
