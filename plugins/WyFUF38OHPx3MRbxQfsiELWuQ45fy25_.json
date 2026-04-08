@@ -1,0 +1,464 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "plugins-annotations",
+        "version": "1.7.11",
+        "title": "Plugins Annotations",
+        "description": "为插件添加备注",
+        "language": "zh-cn",
+        "supportedVersions": "1.7.11",
+        "author": "daoziz"
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerText",
+                    "source": "You can enter rich text annotations using Markdown just the same way you do in Obsidian.                 Once you are finished editing, the Markdown annotation will be rendered correctly.",
+                    "target": "您可以使用 Markdown 编写富文本注释，就像在 Obsidian 中一样。编辑完成后，Markdown 注释将正确呈现。"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerText",
+                    "source": "You can directly link notes inside your                 vault by adding Obsidian links such as ",
+                    "target": "您可以通过添加 Obsidian 链接（如：vault:note）直接链接到您的笔记。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "alert",
+                    "source": "Failed to import settings. Please ensure the file is valid.",
+                    "target": "导入设置失败，请确保文件有效。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "The file ",
+                    "target": "文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": " already exists. Do you want to replace the file with your personal annotations about the installed plugins? If you reply yes, the existing file is moved to the trash.",
+                    "target": "已存在，您是否要替换该文件以包含有关安装插件的个人注释？如果您回答是，则现有文件将被移到回收站。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": " does not exist. Do you want to create it?",
+                    "target": "不存在。您是否要创建它？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "To add or edit your personal annotations for the installed plugins, go to the ",
+                    "target": "要在已安装的插件中添加或编辑个人注释，请转到“"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": " pane and click over the annotation field of the plugin you want to edit.",
+                    "target": " 选项卡并点击您要编辑的插件的注释字段。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "[[My notes/Review of plugin XYZ|my plugin note]]",
+                    "target": "[[我的笔记/插件 XYZ 的评论|我的插件备注]]"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "If disabled, the annotations cannot be edited from the preference pane and are thus                         protected against accidental changes.  In the ",
+                    "target": "如果禁用，注释将无法从偏好设置面板中进行编辑，并且因此受到意外更改的保护。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": " pane, you can coveniently change this setting by clicking on the displayed icon",
+                    "target": "窗格，您可以通过点击显示的图标方便地更改此设置。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "which either locks (make non-editable) or unlocks (make editable) your personal annotations.",
+                    "target": "该图标要么锁定（使其不可编辑），要么解锁（使其可编辑）您的个人注释。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "Markdown file where the plugins' annotations are stored (e.g, ",
+                    "target": "插件的注释存储在 Markdown 文件中（例如，"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": " as a template for the plugin name; for example, you can generate automatic links to your notes with a label of the kind ",
+                    "target": "作为插件名称的模板；例如，您可以生成自动链接到带有类似标签的笔记："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "Choose the label appearing where no user annotation is provied yet. Use ",
+                    "target": "选择标签，当没有用户注释时显示。使用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": " as a template for the plugin name; for example, you can generate automatic                         links to your notes with a placeholder of the kind ",
+                    "target": "作为插件名称的模板；例如，您可以生成自动链接到您的笔记，带有类似类型的占位符"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "If this option is enabled, only annotations set by the user                     will be shown. If you want to insert an annotation to a plugin for the first                     time, hover with the mouse over the chosen plugin in the ",
+                    "target": "如果启用此选项，则仅显示由用户设置的注释。如果您要第一次向插件插入注释，请将鼠标悬停在选择的插件上"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": " pane. The annotation field will appear automatically.",
+                    "target": "窗格中。注释字段会自动出现。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "You are about to restore the settings from the backup named ",
+                    "target": "您即将从备份文件名"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": " created on ",
+                    "target": "创建于"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "You are about to delete the backup named ",
+                    "target": "你即将删除名为"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Syntax error:",
+                    "target": "语法错误:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Unexpected error:",
+                    "target": "意外错误:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to read annotations from file:",
+                    "target": "从文件中读取注释失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to create folder for Markdown file with annotations:",
+                    "target": "为带有注释的Markdown文件创建文件夹失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to write Markdown file with annotations:",
+                    "target": "未能成功写入带有注释的Markdown文\n件："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error importing settings:",
+                    "target": "导入设置时出现错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to save annotations:",
+                    "target": "保存注释失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to save annotations to md file:",
+                    "target": "无法将注释保存到md文件中："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error loading community plugins JSON:",
+                    "target": "加载社区插件JSON时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Create Backup",
+                    "target": "创建备份"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Export",
+                    "target": "导出"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Import",
+                    "target": "导入"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Delete",
+                    "target": "删除"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "With this option enabled, you can select a Markdown file in your vault to                 contain your personal annotations for the installed plugins. This feature is intended                 for power users who prefer to edit annotations directly from a Markdown file.                 A second advantage of this mode is that if you use links to some of your notes in                 the vault, those links will be automatically updated if your notes are later renamed.",
+                    "target": "启用此选项后，您可以在您的保险库中选择一个 Markdown 文件以包含安装插件的个人注释。此功能旨在为喜欢直接从 Markdown 文件编辑注释的高级用户服务。此模式的第二个优点是：如果您在保险库中的笔记使用了链接，则当这些笔记稍后被重命名时，这些链接将自动更新。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "If this option is enabled, the placeholder text will be deleted                     automatically when you start typing a new annotation. If disabled,                     the placeholder text will be selected for easier replacement.                     This is a minor customization.",
+                    "target": "如果启用此选项，当您开始输入新注释时，占位符文本将自动被删除。如果禁用，则占位符文本将被选中以方便替换。这是一个次要的自定义设置。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "If this option is enabled, aclickable icon linking to the plugin's GitHub page will be displayed in the Community plugin pane.",
+                    "target": "如果启用此选项，在社区插件面板中将显示一个可点击图标链接到插件的GitHub页面。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "If this option is enabled, whenever a plugin is uninstalled, the                 attached personal annotation is automatically removed.                 If this option is disabled, you can still  manually remove the personal                 annotations of any plugin that is no longer installed.                 The list of the no longer installed plugins is shown below, when the list is not empty.",
+                    "target": "如果启用此选项，每当卸载插件时，附带的个人注释将自动被删除。如果禁用，则您仍然可以手动移除不再安装的插件的个人注释。当列表不为空时，以下面显示的未安装插件列表为例。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "If you plan to reinstall the plugin in the future,                 it is recommended not to remove your annotations, as you can reuse them later.",
+                    "target": "如果您计划将来重新安装该插件，建议不要删除您的注释，因为您可以稍后重用它们。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Editing annotations",
+                    "target": "编辑注释"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Editable",
+                    "target": "可编辑"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Storage",
+                    "target": "存储"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Store annotations in a Markdown file",
+                    "target": "在 Markdown 文件中存储注释"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Markdown File Path",
+                    "target": "Markdown 文件路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Display",
+                    "target": "显示"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Annotation label",
+                    "target": "注释标签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Placeholder label",
+                    "target": "占位符标签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Hide empty annotations",
+                    "target": "隐藏空注释"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Delete placeholder text when inserting a new annotation",
+                    "target": "插入新注释时删除占位符文本"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show GitHub links",
+                    "target": "显示GitHub链接"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Backups",
+                    "target": "备份"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Create a backup copy of your current settings and annotations",
+                    "target": "创建一个备份副本，保存当前设置和注释"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Annotations of no longer installed community plugins",
+                    "target": "不再安装的社区插件的注释"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Automatically remove personal annotations of uninstalled plugins",
+                    "target": "自动移除未卸载插件的个人注释"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "List of no longer installed plugins",
+                    "target": "不再安装的插件列表"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Annotation label",
+                    "target": "Annotation label"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Reset to default value",
+                    "target": "恢复默认值"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[Plugins Annotations] Community plugins tab not found; hook not installed.",
+                    "target": "[插件注释] 社区插件选项卡未找到；挂钩未安装。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Plugin name not found",
+                    "target": "找不到插件名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Annotations could not be added because the community plugin pane was not detected.",
+                    "target": "由于未检测到社区插件面板，无法添加注释。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Annotations could not be added because installed-plugins-container was not detected.",
+                    "target": "由于未检测到installed-plugins-container，因此无法添加注释。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Settings successfully imported.",
+                    "target": "设置成功导入。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Allows writing annotations (just like this one) about the community plugins installed in the vault.",
+                    "target": "允许在库中安装的社区插件上写注释（就像这个一样）。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Plugins Annotations",
+                    "target": "插件注释"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Yes",
+                    "target": "是"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "No",
+                    "target": "否"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Community plugins",
+                    "target": "社区插件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Error: the filename must end with .md extension.",
+                    "target": "错误：文件名必须以.md扩展名结尾。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "On mobile devices, you can hover over plugins with your finger instead of using the mouse.",
+                    "target": "在移动设备上，您可以使用手指悬停在插件上而不是使用鼠标。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Created on",
+                    "target": "创建于"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Restore",
+                    "target": "恢复"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Delete",
+                    "target": "删除"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "`Choose the annotation label for the ${B} version of Obsidian.                 Use HTML code if you want to format it. Enter an empty string if you want                 to hide the label. Use `",
+                    "target": "`选择Obsidian的${B}版本的注释标签。              如果您想格式化它，请使用HTML代码。如果要隐藏标签，则输入空字符串。使用`"
+                },
+                {
+                    "source": "\"Use the backup button to create an internal backup copy.                 You can customize the names of existing backups by clicking on their names once you have created them.\"",
+                    "target": "\"使用备份按钮创建内部备份副本。                  创建它们后，您可以单击现有备份的名称来自定义其名称。\""
+                },
+                {
+                    "source": "\" Use the export and import buttons             to copy the current settings and annnotations to an external file and, vicevera,             to restore them from an external file.\"",
+                    "target": "\" 使用导出和导入按钮将当前设置和注释复制到外部文件，并且反过来，从外部文件恢复它们。\""
+                }
+            ]
+        }
+    }
+}
