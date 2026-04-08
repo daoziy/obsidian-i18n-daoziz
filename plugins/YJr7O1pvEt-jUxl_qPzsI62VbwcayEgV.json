@@ -1,0 +1,70 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "settings-search",
+        "version": "1.3.10",
+        "title": "Settings Search",
+        "description": "搜索设置",
+        "language": "zh-cn",
+        "supportedVersions": "1.3.10",
+        "author": "daoziz"
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Search settings...",
+                    "target": "搜索设置..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "No results found :(",
+                    "target": "没有找到结果 :("
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "There was an issue opening the setting tab.",
+                    "target": "打开设置标签时出现问题。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "This setting was added by another plugin.",
+                    "target": "此设置由另一个插件添加。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Settings Search Results",
+                    "target": "设置搜索结果"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "setTooltip(`Open ${resource.text} Settings`)",
+                    "target": "setTooltip(`Open ${resource.text} Settings`)"
+                },
+                {
+                    "source": "setPlaceholder(\"Search settings...\")",
+                    "target": "setPlaceholder(\"Search settings...\")"
+                },
+                {
+                    "source": "setText(\"No results found :(\")",
+                    "target": "setText(\"No results found :(\")"
+                },
+                {
+                    "source": "Notice(\"There was an issue opening the setting tab.\")",
+                    "target": "Notice(\"There was an issue opening the setting tab.\")"
+                },
+                {
+                    "source": "text: \"Settings Search Results\"",
+                    "target": "text: \"Settings Search Results\""
+                }
+            ]
+        }
+    }
+}
