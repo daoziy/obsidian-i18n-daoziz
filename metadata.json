@@ -154,5 +154,18 @@
         "created_at": "2026-04-08T06:37:03.484Z",
         "updated_at": "2026-04-08T06:37:03.484Z",
         "type": "plugin"
+    },
+    {
+        "id": "1QtXSvW6QN51C4OaRdpuS-JXczJj0d28",
+        "plugin": "open-tab-settings",
+        "language": "zh-cn",
+        "version": "2.0.0",
+        "supported_versions": "2.0.0",
+        "title": "Open Tab Settings",
+        "description": "新标签中打开笔记",
+        "hash": "595cadd4595cadd4595cadd4595cadd4",
+        "created_at": "2026-04-08T12:52:18.384Z",
+        "updated_at": "2026-04-08T12:52:18.384Z",
+        "type": "plugin"
     }
 ]
