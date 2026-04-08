@@ -167,5 +167,18 @@
         "created_at": "2026-04-08T12:52:18.384Z",
         "updated_at": "2026-04-08T12:52:18.384Z",
         "type": "plugin"
+    },
+    {
+        "id": "WyFUF38OHPx3MRbxQfsiELWuQ45fy25_",
+        "plugin": "plugins-annotations",
+        "language": "zh-cn",
+        "version": "1.7.11",
+        "supported_versions": "1.7.11",
+        "title": "Plugins Annotations",
+        "description": "为插件添加备注",
+        "hash": "2b4884412b4884412b4884412b488441",
+        "created_at": "2026-04-08T12:52:42.663Z",
+        "updated_at": "2026-04-08T12:52:42.663Z",
+        "type": "plugin"
     }
 ]
