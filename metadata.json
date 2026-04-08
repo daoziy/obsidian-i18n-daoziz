@@ -193,5 +193,18 @@
         "created_at": "2026-04-08T13:05:29.550Z",
         "updated_at": "2026-04-08T13:05:29.550Z",
         "type": "plugin"
+    },
+    {
+        "id": "0iSSfSlUXCI237ggBclAeycm7eYKQsrh",
+        "plugin": "remember-scrollposition",
+        "language": "zh-cn",
+        "version": "1.0.5",
+        "supported_versions": "1.0.5",
+        "title": "Remember Scrollposition",
+        "description": "记住浏览笔记时的滚动位置",
+        "hash": "56277186562771865627718656277186",
+        "created_at": "2026-04-08T23:15:55.735Z",
+        "updated_at": "2026-04-08T23:15:55.735Z",
+        "type": "plugin"
     }
 ]
