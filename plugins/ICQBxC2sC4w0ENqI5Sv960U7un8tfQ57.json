@@ -1,0 +1,78 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "quicklink",
+        "version": "1.2.0",
+        "title": "QuickLink",
+        "description": "快速链接文件",
+        "language": "zh-cn",
+        "supportedVersions": "1.2.0",
+        "author": "daoziz"
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Please use this feature in a Markdown view",
+                    "target": "请在Markdown视图中使用此功能"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "\"Enable suggestions\"",
+                    "target": "\"启用建议\""
+                },
+                {
+                    "source": "\"Trigger on character to suggest files\"",
+                    "target": "\"在输入字符时触发文件建议\""
+                },
+                {
+                    "source": "\"Trigger character\"",
+                    "target": "\"触发字符\""
+                },
+                {
+                    "source": "\"Character that will trigger file suggestions\"",
+                    "target": "\"将触发文件建议的字符\""
+                },
+                {
+                    "source": "\"Main folders\"",
+                    "target": "\"主要文件夹\""
+                },
+                {
+                    "source": "\"Set these folders for auto-linking. When using the global trigger, search will be limited to these folders (leave empty for global search).\"",
+                    "target": "\"设置这些文件夹用于自动链接。使用全局触发器时，搜索将局限于这些文件夹（留空表示全局搜索）。\""
+                },
+                {
+                    "source": "\"Exclude folders\"",
+                    "target": "\"排除的文件夹\""
+                },
+                {
+                    "source": "\"Folders to exclude from search (one per line)\"",
+                    "target": "\"不包含在搜索中的文件夹（每行一个）\""
+                },
+                {
+                    "source": "\"Enable advanced URI integration\"",
+                    "target": "\"启用高级URI集成\""
+                },
+                {
+                    "source": "\"Custom rules\"",
+                    "target": "\"自定义规则\""
+                },
+                {
+                    "source": "\"Rule name\"",
+                    "target": "\"规则名称\""
+                },
+                {
+                    "source": "\"Add rule\"",
+                    "target": "\"添加规则\""
+                },
+                {
+                    "source": "\"Requires the \\\"Advanced URI\\\" plugin.\"",
+                    "target": "\"需要安装 \\\"Advanced URI\\\" 插件。\""
+                }
+            ]
+        }
+    }
+}
